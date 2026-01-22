@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+venv/
+env/
+
+# Output
+*.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
