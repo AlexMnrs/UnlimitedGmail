@@ -74,5 +74,9 @@ a.l.e.x@gmail.com
 **Alex Monrás**
 *Desarrollador de Software & Entusiasta de la Automatización*
 
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia [MIT](LICENSE).
+
 ---
-© 2026 Alex Monrás. Todos los derechos reservados.
+© 2026 Alex Monrás.
