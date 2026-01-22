@@ -1,53 +1,78 @@
-# UnlimitedGmail
+# 📧 UnlimitedGmail
 
-Generador de alias para cuentas de Gmail, explotando la característica de que Gmail ignora los puntos en el nombre de usuario. Esto permite generar miles de direcciones de correo electrónico "diferentes" que redirigen a la misma bandeja de entrada.
+**Generador masivo de alias para Gmail mediante permutación de puntos.**
 
-## Características
+Este script de Python explota la característica nativa de Gmail que ignora los puntos en el nombre de usuario (parte local de la dirección). Esto permite generar **miles de direcciones de correo electrónico únicas** que redirigen a la misma bandeja de entrada principal.
 
-- **Generación Inteligente**: Algoritmo iterativo optimizado para generar todas las combinaciones posibles de puntos.
-- **Validación**: Asegura que el formato de los alias generados sea válido.
-- **Salida Organizada**: Guarda todos los resultados automáticamente en `gmail_aliases.txt`.
-- **Interfaz en Español**: Fácil de usar, con instrucciones claras.
+Ideal para:
+- 🧪 Pruebas de Software (QA)
+- 📝 Registros múltiples en servicios
+- 🕵️ Filtrado y organización de correo
 
-## Requisitos
+---
 
-- Python 3.6 o superior.
-- No se requieren librerías externas.
+## ✨ Características
 
-## Instalación
+- 🚀 **Generación Inteligente**: Algoritmo recursivo optimizado para cubrir el 100% de las combinaciones posibles.
+- ✅ **Validación Automática**: Asegura la integridad del formato de correo.
+- 📂 **Salida Organizada**: Exportación automática a un archivo limpio (`gmail_aliases.txt`).
+- 🇪🇸 **100% en Español**: Interfaz y documentación claras y accesibles.
+- ⚡ **Ligero**: Sin dependencias pesadas, solo Python puro.
 
-1. Clona este repositorio o descarga los archivos.
-2. Abre una terminal en la carpeta del proyecto.
+## 🛠️ Requisitos
 
-## Uso
+- **Sistema Operativo**: Windows, macOS, o Linux.
+- **Lenguaje**: [Python 3.6](https://www.python.org/downloads/) o superior.
+- **Librerías**: No requiere instalación de librerías externas (Standard Library).
 
-Ejecuta el script principal:
+## 📥 Instalación
 
-```bash
-python main.py
+1. **Clona el repositorio**:
+   ```bash
+   git clone https://github.com/AlexMnrs/UnlimitedGmail.git
+   ```
+2. **Navega al directorio**:
+   ```bash
+   cd UnlimitedGmail
+   ```
+
+## 💻 Uso
+
+1. **Ejecuta el script**:
+   ```bash
+   python main.py
+   ```
+
+2. **Sigue las instrucciones**:
+   - El programa te pedirá tu usuario de Gmail (lo que va antes del `@`).
+   - *Ejemplo*: Si tu correo es `usuario@gmail.com`, escribe `usuario`.
+
+3. **Revisa los resultados**:
+   - El script generará un archivo llamado `gmail_aliases.txt` en la misma carpeta.
+   - Abre este archivo para ver todos los alias generados.
+
+### 📝 Ejemplo de Salida
+
+Si ingresas `alex`, el archivo contendrá:
+```text
+alex@gmail.com
+a.lex@gmail.com
+al.ex@gmail.com
+a.l.ex@gmail.com
+...
+a.l.e.x@gmail.com
 ```
 
-Sigue las instrucciones en pantalla:
-1. Introduce tu nombre de usuario de Gmail (la parte antes del `@`).
-2. El script generará todas las combinaciones y las guardará en `gmail_aliases.txt`.
-3. ¡Disfruta de tus múltiples alias!
+## ⚠️ Notas Importantes
 
-### Ejemplo
+- **Política de Google**: Gmail oficialmente trata `t.u.n.o.m.b.r.e` igual que `tunombre`. Todos los correos llegarán a tu bandeja de entrada principal.
+- **Límites**: Aunque puedes generar miles de alias, algunos servicios externos pueden tener filtros para detectar y bloquear este comportamiento.
+- **Uso Ético**: Esta herramienta está diseñada con fines educativos y de productividad. Por favor, úsala responsablemente.
 
-Si tu usuario es `ejemplo`, se generarán validaciones como:
-- `e.jemplo@gmail.com`
-- `ej.emplo@gmail.com`
-- `e.j.e.m.p.l.o@gmail.com`
-...
-
-## Notas Importantes
-
-- **Política de Gmail**: Gmail no distingue los puntos en el nombre de usuario. `usuario@gmail.com` es lo mismo que `u.s.u.a.r.i.o@gmail.com`.
-- **Uso Responsable**: Recomendamos usar esta herramienta para pruebas de software, registros múltiples en servicios propios o filtrado de correo.
-
-## Autor
+## 👨‍💻 Autor
 
 **Alex Monrás**
+*Desarrollador de Software & Entusiasta de la Automatización*
 
 ---
 © 2026 Alex Monrás. Todos los derechos reservados.
